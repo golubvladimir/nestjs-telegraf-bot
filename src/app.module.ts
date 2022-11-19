@@ -5,12 +5,11 @@ import { EchoModule } from './echo/echo.module';
 @Module({
   imports: [
     TelegrafModule.forRoot({
-      token: '****',
+      token: '***',
       include: [
         EchoModule
       ]
-    }),
-    EchoModule
+    })
   ],
 })
 export class AppModule {}
